@@ -40,7 +40,7 @@ node ./routes/Detector.js
 A report, if results are found, will be written inside the results folder. The report will be in the form of a JSON file.
 
 
-What you really need to do right now is just copy Detector.js from inside this project into your NodeJS application, and ensure that you have a folder called results in your project directory adjacent to the results folder. This is where the report will be written to. Finally, run the Detector.js file from the command line.
+What you really need to do right now is just copy Detector.js from inside this project into your NodeJS application, and ensure that you have a folder called results in your project directory adjacent to the the DetectorJS file (same directory as). This is where the report will be written to. Finally, run the Detector.js file from the command line.
 
 ```bash
 node ./{your project dir}/Detector.js
