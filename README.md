@@ -39,6 +39,15 @@ node ./routes/Detector.js
 
 A report, if results are found, will be written inside the results folder. The report will be in the form of a JSON file.
 
+
+What you really need to do right now is just copy Detector.js from inside this project into your NodeJS application, and ensure that you have a folder called results in your project directory adjacent to the results folder. This is where the report will be written to. Finally, run the Detector.js file from the command line.
+
+```bash
+node ./{your project dir}/Detector.js
+```
+
+And it should review the contents of your node_modules folder.
+
 ### What's Next?
 
 * Plan to output the results to a web page running off a local express server. This is why there is an entire Express server and routes in the project. I just haven't gotten around to it yet.
