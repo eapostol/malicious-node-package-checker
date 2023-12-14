@@ -1,0 +1,20 @@
+{
+  "name": "malicious-npm-detector",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "moment": "^2.29.4",
+    "morgan": "~1.9.1",
+    "parallel-park": "^0.2.0",
+    "pug": "2.0.0-beta11",
+    "request-async": "^0.1.0",
+    "shelljs": "^0.8.5"
+  }
+}
